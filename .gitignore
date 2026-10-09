@@ -1,0 +1,17 @@
+# Entornos y secretos (¡CRÍTICO!)
+.env
+
+# Backend (Spring Boot / Maven)
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+*.log
+
+# Frontend (React / Vite)
+frontend/node_modules/
+frontend/dist/
+frontend/.eslintcache
+
+# IDEs y SO
+.vscode/
+.idea/
+*.DS_Store
